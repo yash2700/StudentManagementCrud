@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin-left: 2rem;
+}
+h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+input{
+    background-color: black;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+    width: 430px;
+    height: 40px;
+    outline: none;
+    border: 1px solid whitesmoke;
+    color: white;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+input::placeholder{
+    padding-left: 1rem;
+}
+
+input[type="submit"]{
+    background-color: white;
+    color: black;
+    width: 600px;
+    cursor: pointer;
+    }
+#searchInput{
+    width: 92vw;
+}
+
+table,th,td{
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+}
+th{
+    padding: 1rem;
+    font-weight: 400;
+    text-align: start;
+}
+table{
+    width: 93vw;
+}
+td{
+    border: none;
+    text-align: start;
+    padding: 1rem;
+    border-right: 1px solid whitesmoke;
+}
+.edit{
+    margin-right: 1rem;
+}
+
+td:last-child{
+    margin-right: 0;
+    padding: 0;
+    padding-left: 1rem; 
+    display: flex;
+     justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.delete,.edit{
+    cursor: pointer;
+}
+.delete:hover,.edit:hover{
+    transform: scale(1.3);
+}
+#submit{
+    width: 600px;
+    height: 40px;
+    outline: none;
+    margin-bottom: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+
